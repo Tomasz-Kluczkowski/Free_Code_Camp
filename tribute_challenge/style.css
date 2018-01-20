@@ -16,9 +16,16 @@
 }
 
 #bio {
-    color: #94c3d7;
     border-radius: 6px;
     background-color: #041017;
+}
+
+#bio h3 {
+        color: #03BBC5;
+}
+
+#bio p {
+    color: #146091;
 }
 
 #caption {
@@ -32,14 +39,12 @@
 #more-btn {
     background-color: #005360;
     color: #94c3d7;
-    box-shadow: 2px 2px 5px 0 #041017;
 }
 
 #more-btn:hover {
     background-color: #1d4f66;
-    color: #b7bbbc;
-    border: #94c3d7 1px solid;
-    box-shadow: 3px 3px 6px 0 #041017;
+    color: #31DCD1;
+    border: #31DCD1 1px solid;
 }
 
 #symbol {
