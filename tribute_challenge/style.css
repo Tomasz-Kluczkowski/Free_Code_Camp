@@ -1,3 +1,51 @@
 #index_body {
-    margin-top: 55px;
+    /*margin-top: 55px;*/
+    background-color: #0a293b;
+}
+
+#hero-img {
+    background-image: url("http://www.vai.com/wp-content/gallery/india-2017/VIK5637.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#hero-text {
+    color: #94c3d7;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+#bio {
+    color: #94c3d7;
+    border-radius: 6px;
+    background-color: #041017;
+}
+
+#caption {
+    color: #146091;
+}
+
+#small-right {
+    max-width: 30%;
+}
+
+#more-btn {
+    background-color: #005360;
+    color: #94c3d7;
+    box-shadow: 2px 2px 5px 0 #041017;
+}
+
+#more-btn:hover {
+    background-color: #1d4f66;
+    color: #b7bbbc;
+    border: #94c3d7 1px solid;
+    box-shadow: 3px 3px 6px 0 #041017;
+}
+
+#symbol {
+    max-width: 100px;
+}
+
+#author {
+    color: #b7bbbc;
 }
