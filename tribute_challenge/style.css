@@ -24,11 +24,7 @@
         color: #03BBC5;
 }
 
-#bio p {
-    color: #146091;
-}
-
-#caption {
+#bio p, figure .figure-caption{
     color: #146091;
 }
 
@@ -36,12 +32,12 @@
     max-width: 30%;
 }
 
-#more-btn {
+.btn {
     background-color: #005360;
     color: #94c3d7;
 }
 
-#more-btn:hover {
+.btn:hover {
     background-color: #1d4f66;
     color: #31DCD1;
     border: #31DCD1 1px solid;
