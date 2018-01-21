@@ -1,34 +1,120 @@
-#index_body {
+html {
+  font-size: 14px;
+}
+.hero-section__hero-text .display-4 {
+        font-size: 1.5em;
+    }
+.hero-section__hero-text h2 {
+        font-size: 1.0em;
+    }
+.hero-section__hero-text .lead {
+        font-size: 0.75em;
+    }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+    .hero-section__hero-text .display-4 {
+        font-size: 1.75em;
+    }
+    .hero-section__hero-text h2 {
+        font-size: 1.25em;
+    }
+    .hero-section__hero-text .lead {
+        font-size: 1.0em;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .hero-section__hero-text .display-4 {
+        font-size: 2.25em;
+    }
+    .hero-section__hero-text h2 {
+        font-size: 1.25em;
+    }
+    .hero-section__hero-text .lead {
+        font-size: 1.0em;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    html {
+    font-size: 16px;
+  }
+    .hero-section__hero-text .display-4 {
+        font-size: 2.5em;
+    }
+    .hero-section__hero-text h2 {
+        font-size: 1.75em;
+    }
+    .hero-section__hero-text .lead {
+        font-size: 1.5em;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    .hero-section__hero-text .display-4 {
+        font-size: 3.0em;
+    }
+    .hero-section__hero-text h2 {
+        font-size: 2.0em;
+    }
+    .hero-section__hero-text .lead {
+        font-size: 1.75em;
+    }
+}
+
+.index-body {
     /*margin-top: 55px;*/
     background-color: #0a293b;
 }
 
-#hero-img {
+.hero-section {
     background-image: url("http://www.vai.com/wp-content/gallery/india-2017/VIK5637.jpeg");
     background-size: cover;
-    min-height: 100vh;
+    background-position: top center;
+    min-height: 50vh;
 }
 
-#hero-text {
+
+@media only screen and (min-width: 780px) {
+    .hero-section {
+        min-height: 100vh;
+    }
+}
+
+.hero-section__hero-text {
+    text-align: right;
     color: #94c3d7;
     padding-right: 5%;
     padding-top: 5%;
 }
 
-#bio {
+.bio {
     border-radius: 6px;
     background-color: #041017;
 }
 
-#bio h3 {
+.bio h3 {
         color: #03BBC5;
 }
 
-#bio p, figure .figure-caption{
+.bio p, .bio .figure-caption{
     color: #146091;
 }
 
-#small-right {
+.bio__text img {
     max-width: 30%;
 }
 
@@ -43,10 +129,10 @@
     border: #31DCD1 1px solid;
 }
 
-#symbol {
-    max-width: 100px;
+.divider .img-fluid {
+    max-width: 10%;
 }
 
-#author {
+.footer__author {
     color: #b7bbbc;
 }
