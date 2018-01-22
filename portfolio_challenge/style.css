@@ -1,0 +1,6 @@
+.about .about__img {
+    background-image: url("https://image.freepik.com/free-photo/space-reading-education-workspace-empty-white_1421-684.jpg");
+    background-size: cover;
+    background-position: top center;
+    min-height: 50vh;
+}
