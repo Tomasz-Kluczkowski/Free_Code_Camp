@@ -1,13 +1,13 @@
 html {
   font-size: 14px;
 }
-.hero-section__hero-text .display-4 {
+.hero-section__content .hero-section__title {
         font-size: 1.5em;
     }
-.hero-section__hero-text h2 {
+.hero-section__content .hero-section__subtitle {
         font-size: 1.0em;
     }
-.hero-section__hero-text .lead {
+.hero-section__content .hero-section__quote {
         font-size: 0.75em;
     }
 
@@ -16,13 +16,13 @@ html {
     html {
         font-size: 16px;
     }
-    .hero-section__hero-text .display-4 {
+    .hero-section__content .hero-section__title {
         font-size: 1.75em;
     }
-    .hero-section__hero-text h2 {
+    .hero-section__content .hero-section__subtitle {
         font-size: 1.25em;
     }
-    .hero-section__hero-text .lead {
+    .hero-section__content .hero-section__quote {
         font-size: 1.0em;
     }
 }
@@ -32,13 +32,13 @@ html {
     html {
         font-size: 16px;
     }
-    .hero-section__hero-text .display-4 {
+    .hero-section__content .hero-section__title {
         font-size: 2.25em;
     }
-    .hero-section__hero-text h2 {
+    .hero-section__content .hero-section__subtitle {
         font-size: 1.25em;
     }
-    .hero-section__hero-text .lead {
+    .hero-section__content .hero-section__quote {
         font-size: 1.0em;
     }
 }
@@ -48,13 +48,13 @@ html {
     html {
     font-size: 16px;
   }
-    .hero-section__hero-text .display-4 {
+    .hero-section__content .hero-section__title {
         font-size: 2.5em;
     }
-    .hero-section__hero-text h2 {
+    .hero-section__content .hero-section__subtitle {
         font-size: 1.75em;
     }
-    .hero-section__hero-text .lead {
+    .hero-section__content .hero-section__quote {
         font-size: 1.5em;
     }
 }
@@ -64,13 +64,13 @@ html {
     html {
         font-size: 16px;
     }
-    .hero-section__hero-text .display-4 {
+    .hero-section__content .hero-section__title {
         font-size: 3.0em;
     }
-    .hero-section__hero-text h2 {
+    .hero-section__content .hero-section__subtitle {
         font-size: 2.0em;
     }
-    .hero-section__hero-text .lead {
+    .hero-section__content .hero-section__quote {
         font-size: 1.75em;
     }
 }
@@ -94,7 +94,7 @@ html {
     }
 }
 
-.hero-section__hero-text {
+.hero-section__content {
     text-align: right;
     color: #94c3d7;
     padding-right: 5%;
