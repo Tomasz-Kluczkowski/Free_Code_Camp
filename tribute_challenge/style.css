@@ -101,22 +101,27 @@ html {
     padding-top: 5%;
 }
 
+.divider .divider__img {
+    max-width: 10%;
+}
+
 .bio {
     border-radius: 6px;
     background-color: #041017;
 }
 
-.bio h3 {
+.bio__text-col .bio__img-small {
+    max-width: 30%;
+}
+
+.bio__title {
         color: #03BBC5;
 }
 
-.bio p, .bio .figure-caption{
+.bio__paragraph, .bio .bio__caption {
     color: #146091;
 }
 
-.bio__text img {
-    max-width: 30%;
-}
 
 .btn {
     background-color: #005360;
@@ -127,10 +132,6 @@ html {
     background-color: #1d4f66;
     color: #31DCD1;
     border: #31DCD1 1px solid;
-}
-
-.divider .img-fluid {
-    max-width: 10%;
 }
 
 .footer__author {
