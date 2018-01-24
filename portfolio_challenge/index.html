@@ -2,41 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Tomasz Kluczkowski - Portfolio</title>
 </head>
 <body>
-        <nav class="navigation__bar navbar navbar-expand-sm sticky-top navbar-light">
-            <a class="navigation__brand-link navbar-brand" href="index.html">
-                <img width="30" height="30" class="navigation__brand-img d-inline-block align-top" src="static/digital_hex.svg" alt="Home Page Image">
-            </a>
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <a class="navbar-brand" href="index.html">
+            <img class="d-inline-block align-top" src="static/digital_hex.svg" width="30" height="30" alt="Home Page Image">
+        </a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="active nav-link" href="#about">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="about" class="about container-fluid">
+        <div class="row">
+            <div class="about__photo-column col-sm-4">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="about__personal-photo img-fluid rounded" src="static/my_photo_320x300.JPG" width="150" height="150">
+                    </div>
+                    <div class="col-sm-6">
+                        <h5>Tomasz Kluczkowski</h5>
+                    </div>
+
+                </div>
             </div>
-        </nav>
-
-    <div class="about container-fluid">
-        <div class="about__img">
-            <p>asqwd qwdqwdqwdq qwdqwdqwdqwdqw qwdqwdqwd qwqwdqwq q wq qwqwdqwdqwd qwdwdw  qwqwdqwd qwdqwd
-        qwdqwdqwdq wdqwdqwd qwdqwdqwd qwdqwd qwdqwdqwdq qwdqwdqwd qwdq qwdwdqwdq</p>
         </div>
 
     </div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="portfolio.js"></script>
+
 </body>
 </html>
