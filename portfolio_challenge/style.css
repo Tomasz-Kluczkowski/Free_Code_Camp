@@ -1,6 +1,7 @@
 .navigation__bar {
     border-bottom: #6ecb79 1px solid;
-    background-color: rgba(122, 224, 235, 0.81);
+    background-color: #1bff0e;
+    height: 35px;
 
     /*background-image: linear-gradient(*/
                      /*rgba(0,0,0, .5),*/
@@ -9,3 +10,7 @@
     /*background-position: center center;*/
     /*!*height: 30vh*!*/
 }
+
+/*.navigation__brand-img {*/
+    /*background-color: yellow;*/
+/*}*/
