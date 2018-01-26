@@ -1,38 +1,55 @@
 .navbar {
-    border-bottom: #6ecb79 1px solid;
     background-color: #1bbd0e;
-    height: 30px;
-    /*padding: 1% 1% 1% 1%;*/
+    padding: 0 0;
+
+}
+
+.navbar .navbar__bar {
+    padding: 0 1%;
+    border-bottom: #000000 0.1pt solid;
 }
 
 .navbar__brand-img {
     width: 30px;
+    padding-left: 1%;
 }
 @media
     (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),
     (min-resolution: 192dpi) and (min-width: 800px) {
         .navbar__brand-img {
-            width: 45px;
+            width: 50px;
         }
     .navbar-nav .nav-item .nav-link {
 
         font-size: 150%;
     }
-    .navbar {
-        height: 60px;
-        /*padding: 1% 1% 1% 1%;*/
-    }
 }
 
+.navbar-light .navbar-toggler {
+    border-color: antiquewhite;
+}
 
 .navbar-toggler-icon {
     height: 1em;
     width: 1em;
+    padding-right: 1%;
+}
+
+.navbar-nav {
+    padding: 0 1%;
+}
+
+.navbar__divider {
+    border: #000000 0.1pt solid;
+    margin-top: 0;
+    width: 100%;
 }
 
 .navbar-nav .nav-item .nav-link {
     color: #000000;
     transition: all 0.4s ease-in-out;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -44,9 +61,6 @@
     color: #faebd7;
 }
 
-.about {
-}
-
 .about__company-name {
     font-size: 6em;
     text-align: center;
@@ -54,9 +68,10 @@
 }
 
 .about__company-hex {
-    position: relative;
-    left: 0.20em;
-    bottom: 0.28em;
+    margin-right: -1.5%;
+    /*position: relative;*/
+    /*left: 0.20em;*/
+    /*bottom: 0.28em;*/
 }
 
 .about__logo-img {
@@ -64,12 +79,15 @@
 }
 
 .about__company-code {
-    position: relative;
-    right: 0.28em;
-    top: 0.28em;
+    margin-left: -1%;
+    /*position: relative;*/
+    /*right: 0.28em;*/
+    /*top: 0.28em;*/
 }
 
-
+.about__first-letter {
+    color: #1bbd0e;
+}
 
 .about__company-slogan {
     font-size: 2em;
@@ -80,13 +98,13 @@
 .about__divider {
     border: 1px solid  #000000;
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 2%;
     max-width: 30%;
 }
 
 .about__company-info {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
     margin-bottom: 5%;
 }
@@ -127,6 +145,7 @@
     font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
     font-size: 1.0em;
     font-weight: bold;
+    line-height: 1.25em;
     margin-bottom: 0.2em;
 }
 
@@ -138,6 +157,7 @@
 
 .team__person-info {
     color: #94c3d7;
-    font-size: 1.0em;
+    font-size: 1.2em;
+    line-height: 1.2em;
     margin-bottom: 0.1em;
 }

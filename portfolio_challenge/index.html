@@ -8,20 +8,23 @@
     <title>Tomasz Kluczkowski - Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div id="top"></div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
 
-        <a class="navbar-brand" href="index.html">
-            <img class="navbar__brand-img d-inline-block align-top" src="static/digital_hex.svg" alt="Hex Code Logo">
-        </a>
+        <div class="navbar__bar container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar__brand-img d-inline-block align-top" src="static/digital_hex.svg" alt="Hex Code Logo">
+            </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="active nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                    <a class="active nav-link" href="#top">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Portfolio</a>
@@ -33,14 +36,14 @@
         </div>
     </nav>
 
-        <div  id="about"  class="about row container-fluid">
+        <div class="about row container-fluid">
             <div class="col-sm-12">
                 <h1 class="about__company-name">
-                    <span class="about__company-hex">Hex</span>
+                    <span class="about__company-hex"><span class="about__first-letter">H</span>ex</span>
                     <span class="about__logo">
                         <img class="about__logo-img" src="static/digital_hex.svg" alt="Hex Code Logo">
                     </span>
-                    <span class="about__company-code">Code</span>
+                    <span class="about__company-code"><span class="about__first-letter">C</span>ode</span>
                 </h1>
                 <h2 class="about__company-slogan"><em>Converting Passion to a Working Code</em></h2>
                 <hr class="about__divider">
@@ -77,17 +80,9 @@
 
 
 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 <script src="portfolio.js"></script>
 
 </body>
