@@ -34,21 +34,50 @@
 
 
 .navbar-collapse .navbar-nav .nav-item .nav-link.active {
-    color: #ffffff;
+    color: #faebd7;
 }
 
-.about__photo-column {
-    /*margin: 4% 0 0 4%;*/
-    /*border: black 1px solid;*/
+.about {
+}
+
+.about__company {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.about__slogan {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.about__divider-company {
+    border: 1px solid  #1d4f66;
+    margin-top: 0;
+    margin-bottom: 1em;
+    max-width: 30%;
+}
+
+.about__info {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.75em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.about__person-column {
+    border: #ff516b 1px solid;
     border-radius: 6px;
-    padding-left: 0;
+    padding: 2%;
     background-size: cover;
     background: url("static/person_background.jpg") top center;
 }
 
 
 .about__personal-photo {
-    height: auto;
+    width: auto;
 }
 
 .about__person-name {
@@ -63,9 +92,17 @@
     font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
     font-size: 1.0em;
     font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.about__divider-person {
+    border: 1px solid  #1d4f66;
+    margin-top: 0;
+    margin-bottom: 2em;
 }
 
 .about__person-info {
     color: #94c3d7;
     font-size: 1.0em;
+    margin-bottom: 0.1em;
 }
