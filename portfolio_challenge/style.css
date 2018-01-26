@@ -40,26 +40,26 @@
 .about {
 }
 
-.about__company {
+.about__company-name {
     font-size: 6em;
     text-align: center;
     margin-top: 5%;
 }
 
-.about__slogan {
+.about__company-slogan {
     font-size: 2em;
     text-align: center;
     margin-bottom: 2%;
 }
 
 .about__divider-company {
-    border: 1px solid  #1d4f66;
+    border: 1px solid  #000000;
     margin-top: 0;
     margin-bottom: 1em;
     max-width: 30%;
 }
 
-.about__info {
+.about__company-info {
     font-family: 'Nothing You Could Do', cursive;
     font-size: 1.75em;
     text-align: center;
@@ -75,6 +75,11 @@
     background: url("static/person_background.jpg") top center;
 }
 
+
+.about__team {
+    font-size: 3em;
+    text-align: left;
+}
 
 .about__personal-photo {
     width: auto;
