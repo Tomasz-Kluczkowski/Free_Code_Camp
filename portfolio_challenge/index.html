@@ -2,22 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="typography.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/css/typography.css">
+    <link rel="stylesheet" href="static/css/style.css">
 
     <title>Tomasz Kluczkowski - Portfolio</title>
 </head>
 <body class="body">
     <div id="top"></div>
-    <nav class="navbar navbar-expand-md sticky-top navbar-light">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
 
         <div class="navbar__bar container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img class="navbar__brand-img d-inline-block align-top" src="static/digital_hex.svg" alt="Hex Code Logo">
-            </a>
-
+            <div class="navbar__brand">
+                <a class="navbar-brand" href="index.html">
+                    <span class="navbar__brand-name">Hex</span>
+                    <img class="navbar__brand-img" src="static/images/digital_hex.svg" alt="Hex Code Logo">
+                    <span class="navbar__brand-name">Code</span>
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,16 +44,13 @@
 
         <div class="about row container-fluid">
             <div class="col-md-12">
-                <h1 class="about__company-name">
-                    <img class="about__logo-img" src="static/digital_hex.svg" alt="Hex-Code Logo">
-                    <span>
-                        <!--<span class="about__logo">-->
-                            <!--<img class="about__logo-img" src="static/digital_hex.svg" alt="Hex-Code Logo">-->
-                        <!--</span>-->
-                    <span class="about__first-letter">H</span>ex-<span class="about__first-letter">C</span>ode
+                <div class="about__company-name">
+                    <span class="about__company-hex"><span class="about__first-letter">H</span>ex</span>
+                    <span class="about__logo">
+                        <img class="about__logo-img" src="static/images/digital_hex.svg" alt="Hex Code Logo">
                     </span>
-                    <!--<span class="about__company-code"><span class="about__first-letter">C</span>ode</span>-->
-                </h1>
+                    <span class="about__company-code"><span class="about__first-letter">C</span>ode</span>
+                </div>
                 <h2 class="about__company-slogan"><em>Converting Passion to a Working Code</em></h2>
                 <hr class="about__divider">
                 <h3 class="about__company-info">No matter the problem we know how to solve it.<br>
@@ -66,7 +67,7 @@
             <div class="team__person-column col-sm-12">
                 <div class="row">
                     <div class="col-sm-4">
-                        <img class="team__personal-photo img-fluid rounded" src="static/my_photo_320x300.JPG">
+                        <img class="team__personal-photo img-fluid rounded" src="static/images/my_photo_320x300.JPG">
                     </div>
                     <div class="col-sm-8">
                         <p class="team__person-name">Tomasz Kluczkowski</p>
@@ -88,7 +89,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="portfolio.js"></script>
+<script src="static/js/portfolio.js"></script>
 
 </body>
 </html>

@@ -1,22 +1,30 @@
 /*Typography settings for different screen sizes below*/
 /*// Smallest screens up to 450px */
 .body {
-    font-size: 50%;
+    font-size: 80%;
 }
 .about__logo-img {
-    width: 1em;
+    width: 10vw;
+}
+.about__company-name {
+    font-size: 16vw;
 }
 
-
-/* Mobiles 450px and up */
-@media (min-width: 450px) {
-    .body {
-        font-size: 70%;
-    }
+.about__company-info {
+    font-size: 1.35em;
 }
 
-/* Mobiles 660px and up */
-@media (min-width: 600px) {
+.navbar__brand-name {
+    font-size: 1.7em;
+    letter-spacing: -0.07em;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.5em;
+}
+
+/* Mobiles 576px and up */
+@media (min-width: 576px) {
     .body {
         font-size: 90%;
     }
@@ -34,6 +42,9 @@
     .body {
     font-size: 120%;
   }
+    .about__company-name {
+    font-size: 14vw;
+}
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
@@ -41,6 +52,12 @@
     .body {
         font-size: 140%;
     }
+    .about__company-name {
+    font-size: 12vw;
+    }
+    .navbar-nav .nav-item .nav-link {
+    font-size: 1.3em;
+}
 }
 
 /* Setting for retina displays */
@@ -48,7 +65,7 @@
     (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),
     (min-resolution: 192dpi) and (min-width: 800px) {
         .navbar__brand-img {
-            width: 50px;
+            width: 3em;
         }
     .navbar-nav .nav-item .nav-link {
 

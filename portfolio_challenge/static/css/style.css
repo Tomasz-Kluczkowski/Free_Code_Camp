@@ -1,8 +1,25 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    margin: 0 0;
+}
+
 .navbar {
     background-color: #1bbd0e;
     padding: 0 0;
-    border-bottom: black 0.1pt solid;
+}
 
+@media (min-width: 992px) {
+    .navbar {
+        border-bottom: black 0.1pt solid;
+    }
+}
+
+.navbar__brand {
+    display: inline-block;
 }
 
 .navbar .navbar__bar {
@@ -11,8 +28,15 @@
 }
 
 .navbar__brand-img {
-    width: 30px;
+    width: 1.9em;
     padding-left: 1%;
+    vertical-align: top;
+    margin-top: 1.9%;
+}
+
+.navbar__brand-name {
+    font-family: 'Share Tech Mono', monospace;
+    color: black;
 }
 
 .navbar-light .navbar-toggler {
@@ -23,10 +47,6 @@
     height: 1em;
     width: 1em;
     padding-right: 1%;
-}
-
-.navbar-nav {
-    padding: 0 1%;
 }
 
 .navbar__divider {
@@ -40,6 +60,7 @@
     transition: all 0.4s ease-in-out;
     padding-top: 0;
     padding-bottom: 0;
+    padding-left: 1%;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -51,27 +72,32 @@
     color: #faebd7;
 }
 
-.row {
-    margin: 0 0;
+.about {
+    background-image: url("../images/about_background.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 .about__company-name {
-    font-size: 6em;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: -0.1em;
     text-align: center;
     margin-top: 5%;
 }
 
-/*.about__company-hex {*/
-    /*margin-right: -1.5%;*/
-/*}*/
+.about__company-hex {
+    position: relative;
+    left: 4vw;
+}
 
-/*.about__logo-img {*/
-    /*margin: auto;*/
-/*}*/
+.about__logo-img {
+    margin-bottom: 2.8%;
+}
 
-/*.about__company-code {*/
-    /*margin-left: -1%;*/
-/*}*/
+.about__company-code {
+    position: relative;
+    left: -5.5vw;
+}
 
 .about__first-letter {
     color: #1bbd0e;
@@ -92,13 +118,15 @@
 
 .about__company-info {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 1.35em;
+    /*font-size: 1.35em;*/
     text-align: center;
     margin-bottom: 5%;
 }
 
 .team__background {
-    background-image: linear-gradient(0deg,  #1d4f66, #1d4f66);
+    background-image: linear-gradient(0deg, #173602, #173602);
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .team__welcome-message {
@@ -113,7 +141,7 @@
     border-radius: 6px;
     padding: 2%;
     background-size: cover;
-    background: url("static/person_background.jpg") top center;
+    background: url("../images/person_background.jpg") top center;
     margin-bottom: 5%;
 }
 
@@ -138,13 +166,13 @@
 }
 
 .team__divider {
-    border: 1px solid  #1d4f66;
+    border: 0.5pt solid #1d4f66;
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 .team__person-info {
-    color: #94c3d7;
+    color: #1bff0e;
     font-size: 1em;
     line-height: 1.2em;
     margin-bottom: 0.1em;
