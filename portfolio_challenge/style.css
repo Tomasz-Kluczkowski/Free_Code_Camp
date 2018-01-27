@@ -118,7 +118,7 @@
 }
 
 .team__person-column {
-    border: #1bbd0e 1px solid;
+    border: #1bbd0e 0.2pt solid;
     border-radius: 6px;
     padding: 2%;
     background-size: cover;
