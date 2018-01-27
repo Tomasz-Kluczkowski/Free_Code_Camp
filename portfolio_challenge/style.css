@@ -1,6 +1,7 @@
 .navbar {
     background-color: #1bbd0e;
     padding: 0 0;
+    border-bottom: black 0.1pt solid;
 
 }
 
@@ -13,17 +14,18 @@
     width: 30px;
     padding-left: 1%;
 }
-@media
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),
-    (min-resolution: 192dpi) and (min-width: 800px) {
-        .navbar__brand-img {
-            width: 50px;
-        }
-    .navbar-nav .nav-item .nav-link {
 
-        font-size: 150%;
-    }
-}
+/*@media*/
+    /*(-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),*/
+    /*(min-resolution: 192dpi) and (min-width: 800px) {*/
+        /*.navbar__brand-img {*/
+            /*width: 50px;*/
+        /*}*/
+    /*.navbar-nav .nav-item .nav-link {*/
+
+        /*font-size: 150%;*/
+    /*}*/
+/*}*/
 
 .navbar-light .navbar-toggler {
     border-color: antiquewhite;
@@ -69,9 +71,6 @@
 
 .about__company-hex {
     margin-right: -1.5%;
-    /*position: relative;*/
-    /*left: 0.20em;*/
-    /*bottom: 0.28em;*/
 }
 
 .about__logo-img {
@@ -80,9 +79,6 @@
 
 .about__company-code {
     margin-left: -1%;
-    /*position: relative;*/
-    /*right: 0.28em;*/
-    /*top: 0.28em;*/
 }
 
 .about__first-letter {
@@ -104,13 +100,14 @@
 
 .about__company-info {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 5%;
 }
 
 .team__background {
     background-image: linear-gradient(0deg,  #1d4f66, #1d4f66);
+    margin: 0 0;
 }
 
 .team__welcome-message {
@@ -160,4 +157,82 @@
     font-size: 1.2em;
     line-height: 1.2em;
     margin-bottom: 0.1em;
+}
+
+/*Typography settings for different screen sizes below*/
+@media (min-width: 576px) {
+    html {
+        font-size: 16px;
+    }
+    .hero-section__content .hero-section__title {
+        font-size: 1.75em;
+    }
+    .hero-section__content .hero-section__subtitle {
+        font-size: 1.25em;
+    }
+    .hero-section__content .hero-section__quote {
+        font-size: 1.0em;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    .hero-section__content .hero-section__title {
+        font-size: 2.25em;
+    }
+    .hero-section__content .hero-section__subtitle {
+        font-size: 1.25em;
+    }
+    .hero-section__content .hero-section__quote {
+        font-size: 1.0em;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    html {
+    font-size: 16px;
+  }
+    .hero-section__content .hero-section__title {
+        font-size: 2.5em;
+    }
+    .hero-section__content .hero-section__subtitle {
+        font-size: 1.75em;
+    }
+    .hero-section__content .hero-section__quote {
+        font-size: 1.5em;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    .hero-section__content .hero-section__title {
+        font-size: 3.0em;
+    }
+    .hero-section__content .hero-section__subtitle {
+        font-size: 2.0em;
+    }
+    .hero-section__content .hero-section__quote {
+        font-size: 1.75em;
+    }
+}
+
+
+
+@media
+    (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),
+    (min-resolution: 192dpi) and (min-width: 800px) {
+        .navbar__brand-img {
+            width: 50px;
+        }
+    .navbar-nav .nav-item .nav-link {
+
+        font-size: 150%;
+    }
 }
