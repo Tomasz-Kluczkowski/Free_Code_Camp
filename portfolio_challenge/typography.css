@@ -1,0 +1,57 @@
+/*Typography settings for different screen sizes below*/
+/*// Smallest screens up to 450px */
+.body {
+    font-size: 50%;
+}
+.about__logo-img {
+    width: 1em;
+}
+
+
+/* Mobiles 450px and up */
+@media (min-width: 450px) {
+    .body {
+        font-size: 70%;
+    }
+}
+
+/* Mobiles 660px and up */
+@media (min-width: 600px) {
+    .body {
+        font-size: 90%;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .body {
+        font-size: 100%;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .body {
+    font-size: 120%;
+  }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .body {
+        font-size: 140%;
+    }
+}
+
+/* Setting for retina displays */
+@media
+    (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px),
+    (min-resolution: 192dpi) and (min-width: 800px) {
+        .navbar__brand-img {
+            width: 50px;
+        }
+    .navbar-nav .nav-item .nav-link {
+
+        font-size: 150%;
+    }
+}
