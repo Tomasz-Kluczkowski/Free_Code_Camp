@@ -12,9 +12,8 @@
     <title>Tomasz Kluczkowski - Portfolio</title>
 </head>
 <body class="body">
-    <!--<div id="top"></div>-->
+    <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg sticky-top navbar-light">
-
         <div class="navbar__bar container-fluid">
             <div class="navbar__brand">
                 <a class="navbar-brand" href="#about">
@@ -27,7 +26,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-
+    <!--Navigation menu-->
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -42,7 +41,7 @@
             </ul>
         </div>
     </nav>
-
+    <!--About section-->
     <section id="about">
         <div class="about row container-fluid">
             <div class="col-md-12">
@@ -60,7 +59,7 @@
                 Relax whilst we work tirelessly to keep your customers happy.</h3>
             </div>
         </div>
-
+    <!--Team members-->
         <div class="team__background row container-fluid">
             <div class="row container mx-auto">
                 <h2 class="team__welcome-message">Meet the Team</h2>
@@ -82,7 +81,7 @@
             </div>
         </div>
     </section>
-
+    <!--Portfolio section-->
     <section id="portfolio">
         <div class="portfolio row container-fluid">
             <div class="col-sm-12">
@@ -138,52 +137,64 @@
             </div>
         </div>
     </section>
-
-    <!--<section id="contact">-->
-        <!--<div class="contact row container-fluid">-->
-            <!--<div class="col-sm-12">-->
-                <!--<h2 class="section-title">Contact</h2>-->
-            <!--</div>-->
-
-
-
-
-<section id="contact">
-			<div class="section-content">
-				<h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
-				<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h3>
-			</div>
-			<div class="contact-section">
-			<div class="container">
-				<form>
-					<div class="col-md-6 form-line">
-			  			<div class="form-group">
-			  				<label for="exampleInputUsername">Your name</label>
-					    	<input type="text" class="form-control" id="" placeholder=" Enter Name">
-				  		</div>
-				  		<div class="form-group">
-					    	<label for="exampleInputEmail">Email Address</label>
-					    	<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
-					  	</div>
-					  	<div class="form-group">
-					    	<label for="telephone">Mobile No.</label>
-					    	<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
-			  			</div>
-			  		</div>
-			  		<div class="col-md-6">
-			  			<div class="form-group">
-			  				<label for ="description"> Message</label>
-			  			 	<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-			  			</div>
-			  			<div>
-
-			  				<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
-			  			</div>
-
-					</div>
-				</form>
-			</div>
-</section>
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <div class="row container-fluid">
+            <div class="col-sm-12">
+                <h2 class="section-title">Contact</h2>
+            </div>
+        </div>
+    <!--Contact form-->
+        <form class="contact__form container" method="post" action="#" role="form">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="contact__label" for="form_name">Firstname *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="contact__label" for="form_lastname">Lastname *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="contact__label" for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="contact__label" for="form_phone">Phone</label>
+                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="contact__label" for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" class="contact__submit-button btn btn-success btn-send btn-lg" value="Send message">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                </div>
+            </div>
+        </form>
+    </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
