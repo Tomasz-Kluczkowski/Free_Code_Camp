@@ -22,9 +22,11 @@
     display: inline-block;
 }
 
-.navbar .navbar__bar {
-    padding: 0 1%;
-    border-bottom: #000000 0.1pt solid;
+@media (max-width: 991px) {
+    .navbar .navbar__bar {
+        padding: 0 1%;
+        border-bottom: #000000 0.1pt solid;
+    }
 }
 
 .navbar__brand-img {
