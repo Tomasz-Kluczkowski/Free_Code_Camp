@@ -1,14 +1,10 @@
-
-
-// Select all links with hashes
 $(document).ready(function() {
     $(".navbar-nav .nav-item .nav-link").on("click", function(){
-    $(".navbar-nav").find(".active").removeClass("active");
-    $(this).addClass("active");
+        $(".navbar-nav").find(".active").removeClass("active");
+        $(this).addClass("active");
     });
 
-//    ADD SECTIONS TO THE HTML TO BIND EVENT TO STATE CHANGE
-//    CHECK WHAT SELECTORS NEED TO BE USED !!!
+    // Automatic navigation active state.
     var sections = $('section'),
         nav = $('nav'),
         nav_height = nav.outerHeight();
@@ -28,8 +24,9 @@ $(document).ready(function() {
                 nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
             }
         });
-});
+    });
 
+    // Select all links with hashes
     $('a[href*="#"]')
     // Remove links that don't actually link to anything
         .not('[href="#"]')
