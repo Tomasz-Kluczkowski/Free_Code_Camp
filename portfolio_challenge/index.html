@@ -12,12 +12,12 @@
     <title>Tomasz Kluczkowski - Portfolio</title>
 </head>
 <body class="body">
-    <div id="top"></div>
+    <!--<div id="top"></div>-->
     <nav class="navbar navbar-expand-lg sticky-top navbar-light">
 
         <div class="navbar__bar container-fluid">
             <div class="navbar__brand">
-                <a class="navbar-brand" href="#top">
+                <a class="navbar-brand" href="#about">
                     <span class="navbar__brand-name">Hex</span>
                     <img class="navbar__brand-img" src="static/images/digital_hex.svg" alt="Hex Code Logo">
                     <span class="navbar__brand-name">Code</span>
@@ -31,7 +31,7 @@
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="active nav-link" href="#top">About<span class="sr-only">(current)</span></a>
+                    <a class="active nav-link" href="#about">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -43,6 +43,7 @@
         </div>
     </nav>
 
+    <section id="about">
         <div class="about row container-fluid">
             <div class="col-md-12">
                 <div class="about__company-name">
@@ -60,73 +61,83 @@
             </div>
         </div>
 
-    <div class="team__background row container-fluid">
-        <div class="row container mx-auto">
-            <h2 class="team__welcome-message">Meet the Team</h2>
-            <div class="team__person-column col-sm-12">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img class="team__personal-photo img-fluid rounded" src="static/images/my_photo_320x300.JPG">
-                    </div>
-                    <div class="col-sm-8">
-                        <p class="team__person-name">Tomasz Kluczkowski</p>
-                        <p class="team__person-profession">Aspiring Full-stack Developer, Husband, Daddy & Gamer</p>
-                        <hr class="team__divider">
-                        <p class="team__person-info">Working hard on all aspects of web development.</p>
-                        <p class="team__person-info">Using Django / Python 3 for back-end & Javascript / JQuery / Bootstrap for the front-end.</p>
-                        <p class="team__person-info">Studying Computing and IT at Open University to get solid foundations of computer science.</p>
+        <div class="team__background row container-fluid">
+            <div class="row container mx-auto">
+                <h2 class="team__welcome-message">Meet the Team</h2>
+                <div class="team__person-column col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="team__personal-photo img-fluid rounded" src="static/images/my_photo_320x300.JPG">
+                        </div>
+                        <div class="col-sm-8">
+                            <p class="team__person-name">Tomasz Kluczkowski</p>
+                            <p class="team__person-profession">Aspiring Full-stack Developer, Husband, Daddy & Gamer</p>
+                            <hr class="team__divider">
+                            <p class="team__person-info">Working hard on all aspects of web development.</p>
+                            <p class="team__person-info">Using Django / Python 3 for back-end & Javascript / JQuery / Bootstrap for the front-end.</p>
+                            <p class="team__person-info">Studying Computing and IT at Open University to get solid foundations of computer science.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="portfolio" class="portfolio row container-fluid">
-        <div class="col-sm-12">
-            <h2 class="portolio__section-title">Portfolio</h2>
-        </div>
+    <section id="portfolio">
+        <div class="portfolio row container-fluid">
+            <div class="col-sm-12">
+                <h2 class="portolio__section-title">Portfolio</h2>
+            </div>
 
-        <div class="portfolio__img-col col-sm-6">
-            <div class="portfolio__spacer"></div>
-            <div class="portfolio__img-container">
-                <div class="portfolio__img-overlay">
-                    <a class="portfolio__link" href="http://tomasz-kluczkowski.com/"><i class="portfolio__icon fas fa-external-link-square-alt"></i></a>
-                    <div class="portfolio__title-container">
-                        <h2 class="portfolio__img-title">tomasz-kluczkowski.com</h2>
-                        <p class="portfolio__img-subtitle">Category: Blog</p>
+            <div class="portfolio__img-col col-sm-6">
+                <div class="portfolio__spacer"></div>
+                <div class="portfolio__img-container">
+                    <div class="portfolio__img-overlay">
+                        <a class="portfolio__link" href="http://tomasz-kluczkowski.com/">
+                            <i class="portfolio__icon fas fa-external-link-square-alt"></i>
+                        </a>
+                        <div class="portfolio__title-container">
+                            <h2 class="portfolio__img-title">tomasz-kluczkowski.com</h2>
+                            <p class="portfolio__img-subtitle">Category: Blog</p>
+                        </div>
                     </div>
+                    <img class="portfolio__img img-fluid img-thumbnail" src="static/images/portfolio/personal_website_1440px.jpg">
                 </div>
-                <img class="portfolio__img img-fluid img-thumbnail" src="static/images/portfolio/personal_website_1440px.jpg">
+            </div>
+
+            <div class="portfolio__img-col col-sm-6">
+                <div class="portfolio__spacer"></div>
+                <div class="portfolio__img-container">
+                    <div class="portfolio__img-overlay">
+                        <a class="portfolio__link" href="https://github.com/Tomasz-Kluczkowski/Weather-App/releases/tag/v1.0.2">
+                            <i class="portfolio__icon fas fa-external-link-square-alt"></i>
+                        </a>
+                        <div class="portfolio__title-container">
+                            <h2 class="portfolio__img-title">Weather App</h2>
+                            <p class="portfolio__img-subtitle">Category: Desktop Weather Application</p>
+                        </div>
+                    </div>
+                    <img class="portfolio__img img-fluid img-thumbnail" src="static/images/portfolio/weather_app_1440px.jpg">
+                </div>
+            </div>
+
+            <div class="portfolio__img-col col-sm-6">
+                <div class="portfolio__spacer"></div>
+                <div class="portfolio__img-container">
+                    <div class="portfolio__img-overlay">
+                        <a class="portfolio__link" href="https://github.com/Tomasz-Kluczkowski/versioner">
+                            <i class="portfolio__icon fas fa-external-link-square-alt"></i>
+                        </a>
+                        <div class="portfolio__title-container">
+                            <h2 class="portfolio__img-title">Versioner</h2>
+                            <p class="portfolio__img-subtitle">Category: Automatic Version Numbering</p>
+                        </div>
+                    </div>
+                    <img class="portfolio__img img-fluid img-thumbnail" src="static/images/portfolio/versioner_1440px.jpg">
+                </div>
             </div>
         </div>
-
-        <div class="portfolio__img-col col-sm-6">
-            <div class="portfolio__spacer"></div>
-            <div class="portfolio__img-container">
-                <div class="portfolio__img-overlay">
-                    <a class="portfolio__link" href="https://github.com/Tomasz-Kluczkowski/Weather-App/releases/tag/v1.0.2"><i class="portfolio__icon fas fa-external-link-square-alt"></i></a>
-                    <div class="portfolio__title-container">
-                        <h2 class="portfolio__img-title">Weather App</h2>
-                        <p class="portfolio__img-subtitle">Category: Desktop Weather Application</p>
-                    </div>
-                </div>
-                <img class="portfolio__img img-fluid img-thumbnail" src="static/images/portfolio/weather_app_1440px.jpg">
-            </div>
-        </div>
-
-        <div class="portfolio__img-col col-sm-6">
-            <div class="portfolio__spacer"></div>
-            <div class="portfolio__img-container">
-                <div class="portfolio__img-overlay">
-                    <a class="portfolio__link" href="https://github.com/Tomasz-Kluczkowski/versioner"><i class="portfolio__icon fas fa-external-link-square-alt"></i></a>
-                    <div class="portfolio__title-container">
-                        <h2 class="portfolio__img-title">Versioner</h2>
-                        <p class="portfolio__img-subtitle">Category: Tool For Automatic Version Numbering</p>
-                    </div>
-                </div>
-                <img class="portfolio__img img-fluid img-thumbnail" src="static/images/portfolio/versioner_1440px.jpg">
-            </div>
-        </div>
+    </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

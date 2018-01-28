@@ -9,26 +9,26 @@ $(document).ready(function() {
 
 //    ADD SECTIONS TO THE HTML TO BIND EVENT TO STATE CHANGE
 //    CHECK WHAT SELECTORS NEED TO BE USED !!!
-//     var sections = $('section'),
-//         nav = $('nav'),
-//         nav_height = nav.outerHeight();
-//
-//     $(window).on('scroll', function () {
-//         var cur_pos = $(this).scrollTop();
-//
-//     sections.each(function() {
-//         var top = $(this).offset().top - nav_height,
-//         bottom = top + $(this).outerHeight();
-//
-//     if (cur_pos >= top && cur_pos <= bottom) {
-//       nav.find('a').removeClass('active');
-//       sections.removeClass('active');
-//
-//       $(this).addClass('active');
-//       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
-//     }
-//   });
-// });
+    var sections = $('section'),
+        nav = $('nav'),
+        nav_height = nav.outerHeight();
+
+    $(window).on('scroll', function () {
+        var cur_pos = $(this).scrollTop();
+
+        sections.each(function() {
+            var top = $(this).offset().top - nav_height,
+            bottom = top + $(this).outerHeight();
+
+            if (cur_pos >= top && cur_pos <= bottom) {
+                nav.find('a').removeClass('active');
+                sections.removeClass('active');
+
+                $(this).addClass('active');
+                nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
+            }
+        });
+});
 
     $('a[href*="#"]')
     // Remove links that don't actually link to anything
