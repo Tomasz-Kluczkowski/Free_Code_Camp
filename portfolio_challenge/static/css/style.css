@@ -273,10 +273,12 @@
 .contact__form {
     background: linear-gradient(#1bbd0e, #005360);
     border-radius: 4px;
+    margin-bottom: 7%;
 }
 
 .form-control {
     background: antiquewhite;
+    font-size: 1.25em;
 }
 
 .contact__form .row:first-child .contact__label {
@@ -284,5 +286,44 @@
 }
 
 .contact__submit-button {
+    color: antiquewhite;
     margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 1.25em;
+}
+
+.contact__submit-button:hover {
+    color: #31DCD1;
+    background-color: rgba(0, 0, 0, 0.51);
+}
+
+.contact__icon {
+    color: antiquewhite;
+    margin-left: 5%;
+}
+
+.footer {
+    background: #005360;
+    border-top: black 1px solid;
+}
+
+.footer__content {
+    text-align: center;
+}
+
+.footer__text {
+    font-size: 1.25em;
+    color: #000000;
+    margin-top: 2%;
+}
+
+.footer__divider {
+    border: black 1px solid;
+    width: 20%;
+}
+
+.footer__icon {
+    color: antiquewhite;
+    font-size: 2em;
+    margin: 0 1% 1% 1%;
 }
