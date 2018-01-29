@@ -147,7 +147,7 @@
     padding: 2%;
     background-size: cover;
     background: url("../images/person_background.jpg") top center;
-    margin-bottom: 5%;
+    margin-bottom: 13%;
     box-shadow: 3px 3px 3px 0 #000000;
 }
 
@@ -328,11 +328,11 @@
     -ms-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
-    color: #146091;
+    color: #000000;
     font-size: 2em;
     margin: 0 1% 1% 1%;
 }
 
 .footer__icon:hover {
-    color: black    ;
+    color: #146091;
 }
