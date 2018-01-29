@@ -303,7 +303,7 @@
 }
 
 .footer {
-    background: #005360;
+    background: linear-gradient(rgb(196, 203, 206), antiquewhite);
     border-top: black 1px solid;
 }
 
@@ -323,7 +323,16 @@
 }
 
 .footer__icon {
-    color: antiquewhite;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    color: #146091;
     font-size: 2em;
     margin: 0 1% 1% 1%;
+}
+
+.footer__icon:hover {
+    color: black    ;
 }
