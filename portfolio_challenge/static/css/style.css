@@ -79,7 +79,7 @@
 }
 
 .about {
-    background-image: url("../images/about_background.jpg");
+    background-image: url("../images/about_background_1920px.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -148,7 +148,7 @@
     background-size: cover;
     background: url("../images/person_background.jpg") top center;
     margin-bottom: 13%;
-    box-shadow: 3px 3px 3px 0 #000000;
+    box-shadow: 5px 5px 5px 0 #000000;
 }
 
 .team__personal-photo {
